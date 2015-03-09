@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_cat_serveursql">
+        <EditTextPreference
+            android:key="PREFKEY_IPSERVEUR"
+            android:title="@string/title_ipServeur"
+            android:summary="@string/summary_ipServeur"
+            android:defaultValue="serveurpush.michel-marie.net"
+            />
+        <EditTextPreference
+            android:key="PREFKEY_PORTSERVEUR"
+            android:title="@string/title_portServeur"
+            android:summary="@string/summary_portServeur"
+            android:defaultValue="1433"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_comptesql">
+        <EditTextPreference
+            android:key="PREFKEY_USERNAME"
+            android:title="@string/title_user"
+            android:summary="@string/summary_user"
+            android:defaultValue="manager"
+            />
+        <EditTextPreference
+            android:key="PREFKEY_PASSWORD"
+            android:title="@string/title_password"
+            android:summary="@string/summary_password"
+            android:defaultValue="Password1234"
+            android:password="true"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

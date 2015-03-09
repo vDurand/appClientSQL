@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">appClientSQL</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Application client SQL Server</string>
+    <string name="btnAddFourn">Ajouter un fournisseur</string>
+    <string name="identificateur">Identificateur</string>
+    <string name="entreprise">Entreprise</string>
+    <string name="statut">Statut</string>
+    <string name="ville">Ville</string>
+    <string name="btnListFourn">Lister les frounisseurs</string>
+    <string name="titleList">Liste BDD entreprise</string>
+
+    <string name="pref_cat_serveursql">Paramètres d\'adressage</string>
+    <string name="pref_cat_comptesql">Paramètres d\'authentification</string>
+    <string name="title_ipServeur">Serveur SQL Express</string>
+    <string name="summary_ipServeur">Entrer l\'adresse ou le nom d\'hôte</string>
+    <string name="title_portServeur">Serveur SQL Express</string>
+    <string name="summary_portServeur">Entrer le port d\'écoute du serveur</string>
+    <string name="title_user">Nom d\'utilisateur</string>
+    <string name="summary_user">Entrer le nom du compte autorisé</string>
+    <string name="title_password">Mot de passe</string>
+    <string name="summary_password">Entrer le mot de passe de connexion</string>
+
+    <string name="menu_preferences">Préférences</string>
+
+    <string name="imageDescription">usine.jpg</string>
+</resources>

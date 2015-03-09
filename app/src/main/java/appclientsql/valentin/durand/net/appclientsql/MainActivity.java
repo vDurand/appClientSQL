@@ -151,7 +151,7 @@ public class MainActivity extends ActionBarActivity {
         final String stattxt = stat.getText().toString();
         final String villetxt = ville.getText().toString();
 
-        if(!idtxttemp.matches("") && !enttxt.matches("") && !stattxt.matches("") && !villetxt.matches("")){
+        if(!idtxttemp.matches("") && idtxttemp.matches("\\d+") && !enttxt.matches("") && !stattxt.matches("") && !villetxt.matches("")){
             final int idtxt = Integer.parseInt(idtxttemp);
 
             new Thread(new Runnable() {

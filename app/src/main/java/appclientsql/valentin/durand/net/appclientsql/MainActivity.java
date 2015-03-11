@@ -167,7 +167,7 @@ public class MainActivity extends ActionBarActivity {
                             if(res == 1){
                                 AlertDialog.Builder alertB = new
                                         AlertDialog.Builder(MainActivity.this);
-                                alertB.setTitle("Fournisseur ajouté avec succés"); alertB.show();
+                                alertB.setTitle("Fournisseur ajouté avec succès"); alertB.show();
                             }
                             if(res == -1){
                                 AlertDialog.Builder alertB = new

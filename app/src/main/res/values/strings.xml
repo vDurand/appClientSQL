@@ -10,7 +10,7 @@
     <string name="entreprise">Entreprise</string>
     <string name="statut">Statut</string>
     <string name="ville">Ville</string>
-    <string name="btnListFourn">Lister les frounisseurs</string>
+    <string name="btnListFourn">Lister les fournisseurs</string>
     <string name="titleList">Liste BDD entreprise</string>
 
     <string name="pref_cat_serveursql">Paramètres d\'adressage</string>
